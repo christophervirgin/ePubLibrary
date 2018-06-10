@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  epublibrary:
+    image: ${DOCKER_REGISTRY}epublibrary
+    build:
+      context: .
+      dockerfile: EpubLibrary/Dockerfile

@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersOne.Epub", "VersOne.Epu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersOne.Epub.WpfDemo", "VersOne.Epub.WpfDemo\VersOne.Epub.WpfDemo.csproj", "{2C48D6FB-EC93-4B79-8E52-79B579B3C324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersOne.Epub.NetCoreDemo", "VersOne.Epub.NetCoreDemo\VersOne.Epub.NetCoreDemo.csproj", "{A6ED4735-3D37-4E44-BEE4-218C6BBAC1BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersOne.Epub.NetCoreDemo", "VersOne.Epub.NetCoreDemo\VersOne.Epub.NetCoreDemo.csproj", "{A6ED4735-3D37-4E44-BEE4-218C6BBAC1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpubLibrary", "EpubLibrary\EpubLibrary.csproj", "{360194E0-CB1B-4E0A-894C-9CC241DF3582}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{68B886C4-EEDD-4882-9D00-BF169A95DD22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{A6ED4735-3D37-4E44-BEE4-218C6BBAC1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6ED4735-3D37-4E44-BEE4-218C6BBAC1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6ED4735-3D37-4E44-BEE4-218C6BBAC1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360194E0-CB1B-4E0A-894C-9CC241DF3582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360194E0-CB1B-4E0A-894C-9CC241DF3582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360194E0-CB1B-4E0A-894C-9CC241DF3582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360194E0-CB1B-4E0A-894C-9CC241DF3582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B886C4-EEDD-4882-9D00-BF169A95DD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B886C4-EEDD-4882-9D00-BF169A95DD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B886C4-EEDD-4882-9D00-BF169A95DD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B886C4-EEDD-4882-9D00-BF169A95DD22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
